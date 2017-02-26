@@ -2,10 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+
 h1 {
 
-    text-align: center;
     
+    text-align: center;
 }
 
 
@@ -19,4 +25,62 @@ p {
 
     text-align: center;
     padding: 20px;
+     font-family: 'Playfair Display SC', serif;
+    font-size: 15px;
+}
+
+.box {
+
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    margin-bottom:  100px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#title {
+
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 70px;
+    
+   
+}
+
+
+.img {
+
+    width: 50px;
+    position: absolute;
+    right:  95%;
+    
+
+}
+
+
+
+.im {
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+  
+    
+
+}
+
+#int {
+
+margin-bottom: 50px;
+ font-family: 'Playfair Display SC', serif;
+
+}
+
+#abt {
+
+    color: black;
+     font-family: 'Playfair Display SC', serif;
 }
